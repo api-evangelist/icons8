@@ -1,0 +1,32 @@
+aid: icons8
+name: Icons8
+description: "Icons (find \"search icon\" hyperlink in page)"
+url: https://img.icons8.com/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Art & Design"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Art And Design
+  - Public APIs
+apis:
+  - name: Icons8
+    description: "Icons (find \"search icon\" hyperlink in page)"
+    humanURL: https://img.icons8.com/
+    baseURL: https://img.icons8.com/
+    tags:
+      - Art And Design
+    properties:
+      - type: Documentation
+        url: https://img.icons8.com/
+common:
+  - type: Website
+    url: https://img.icons8.com/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
