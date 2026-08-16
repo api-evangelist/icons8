@@ -1,0 +1,8 @@
+---
+title: "Design trends for 2027"
+url: "https://icons8.com/blog/articles/design-trends-for-2027/"
+date: "2026-08-12"
+author: "icons8"
+feed_url: "https://blog.icons8.com/feed"
+---
+A designer's look at which 2027 design trends will survive once anyone can generate them in a minute, and which won't. The post Design trends for 2027 appeared first on icons8.com .
