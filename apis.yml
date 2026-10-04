@@ -33,13 +33,13 @@ x-category: "Art & Design"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Art And Design
   - Public APIs
+  - Icons
+  - Design
 apis:
   - name: Icons8
     description: "Icons (find \"search icon\" hyperlink in page)"
     humanURL: https://img.icons8.com/
-    baseURL: https://img.icons8.com/
     tags:
       - Art And Design
     properties:
@@ -57,3 +57,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Art And Design
