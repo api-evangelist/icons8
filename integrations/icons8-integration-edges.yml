@@ -14,7 +14,7 @@ edges:
     registered_name: com.icons8/icons8
     register_id: com.icons8/icons8
     detected_by: sweep-agent-tools.py
-    detected: '2026-10-14'
+    detected: '2026-10-15'
   mcp_registry:
     servers:
     - com.icons8/icons8
