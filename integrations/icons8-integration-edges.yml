@@ -30,7 +30,27 @@ edges:
   - namespace-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/free_icons_photos_illustrations/204075515330
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - Free icons, photos & illustrations
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
 generated: '2026-10-14'
 method: searched
 checked:
+- google-workspace/integrations/google-workspace-integration-edges.yml
 - https://registry.modelcontextprotocol.io/v0/servers
+source:
+- google-workspace/integrations/google-workspace-integration-edges.yml
