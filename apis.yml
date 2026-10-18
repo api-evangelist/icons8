@@ -40,7 +40,8 @@ apis:
   - name: Icons8
     description: "Icons (find \"search icon\" hyperlink in page)"
     humanURL: https://img.icons8.com/
-    tags:
+    tags: []
+    tags_raw:
       - Art And Design
     properties:
       - type: Documentation
