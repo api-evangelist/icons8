@@ -1,21 +1,4 @@
 edges:
-- partner_name: Google Workspace (own)
-  partner: google-workspace
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://workspace.google.com/marketplace/app/free_icons_photos_illustrations/204075515330
-  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
-  apps:
-  - Free icons, photos & illustrations
-  listing_count: 1
-  detected: '2026-10-18'
-  detected_by: mirror-platform-listings.py
-  category: Google Workspace app
 - partner_name: MCP Registry
   partner: mcp
   partner_match: register
@@ -47,23 +30,6 @@ edges:
   - namespace-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
-- partner_name: Miro (own)
-  partner: miro
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://miro.com/marketplace/icons8-graphics/
-  mirror_of: miro/integrations/miro-integration-edges.yml
-  apps:
-  - 'Icons8 '
-  listing_count: 1
-  detected: '2026-10-22'
-  detected_by: mirror-platform-listings.py
-  category: Miro app
 - partner_name: Raycast
   partner: raycast
   partner_match: domain
@@ -186,6 +152,74 @@ edges:
     detected: '2026-10-22'
   detected_by: sweep-openapi-directory-apis-guru.py
   first_seen: '2026-10-22'
+- partner_name: Google Workspace (own)
+  partner: google-workspace
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://workspace.google.com/marketplace/app/free_icons_photos_illustrations/204075515330
+  mirror_of: google-workspace/integrations/google-workspace-integration-edges.yml
+  apps:
+  - Free icons, photos & illustrations
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Google Workspace app
+- partner_name: Miro (own)
+  partner: miro
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://miro.com/marketplace/icons8-graphics/
+  mirror_of: miro/integrations/miro-integration-edges.yml
+  apps:
+  - 'Icons8 '
+  listing_count: 1
+  detected: '2026-10-22'
+  detected_by: mirror-platform-listings.py
+  category: Miro app
+- partner_name: Adobe Illustrator (own)
+  partner: adobe-illustrator
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://exchange.adobe.com/apps/cc/103891/icons8
+  mirror_of: adobe-illustrator/integrations/adobe-illustrator-integration-edges.yml
+  apps:
+  - Icons8
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Adobe Exchange Creative Cloud listing (Illustrator, Photoshop)
+- partner_name: Adobe Photoshop (own)
+  partner: adobe-photoshop
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://exchange.adobe.com/apps/cc/103891/icons8
+  mirror_of: adobe-photoshop/integrations/adobe-photoshop-integration-edges.yml
+  apps:
+  - Icons8
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Adobe Exchange Creative Cloud listing (Illustrator, Photoshop)
 generated: '2026-10-14'
 method: searched
 checked:
@@ -198,5 +232,7 @@ checked:
 - https://flathub.org/api/v2/appstream/<app-id>
 - https://api.apis.guru/v2/list.json
 - https://api.apis.guru/v2/providers.json
+- adobe-illustrator/integrations/adobe-illustrator-integration-edges.yml
+- adobe-photoshop/integrations/adobe-photoshop-integration-edges.yml
 source:
 - google-workspace/integrations/google-workspace-integration-edges.yml
